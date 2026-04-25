@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Definition des variables  */
+:root{
+    --btn-color:#3E3232;
+    --chococam-color:#443434;
+    --contact-color:#DFCECE;
+    --policepoppins:"Poppins", sans-serif;
+    --Taille:5.5rem;
+    --taille:2.4rem;
+}
+
+body{
+    border:0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin:1rem 3.8rem;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    gap: 8rem;
+    font-size: var(--taille);
+    list-style: none;
+}
+
+
+.btn1{
+    background-color: var(--btn-color);
+    color: var(--contact-color);
+    font-family: var(--policepoppins);
+    padding: 1.3rem 2.9rem;
+    border: 0px solid;
+    font-size: var(--taille);
+    cursor: pointer;
+}
+
+.btn2{
+    background-color: var(--btn-color);
+    color: var(--contact-color);
+    font-family: var(--policepoppins);
+    padding: 1.9rem 4.2rem;
+    border: 0px solid;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+h2{
+    font-family: var(--policepoppins);
+    font-size: 7rem;
+}
+
+section>div>p{
+    font-family: var(--policepoppins);
+    font-size: 4rem;
+}
+.section-1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10rem;
+}
+
+.section-1 img{
+    height: 79.2rem;
+    width: 90rem;
+}
+.section-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section-3{
+    display: flex;
+    gap: 5rem;
+    background-color: var(--chococam-color);
+    padding: 15.3rem 6.8rem;
+    margin-top: 15rem;
+    color: white;
+    justify-content: space-between;
+}
+.section-3>div>h2{
+    font-size: 5.5rem;
+    font-family: var(--policepoppins);
+}
+.section-3>div>p{
+    font-size: var(--taille);
+    font-family: var(--policepoppins);
+}
+
+.section-4>.block{
+    display: flex;
+    justify-content: space-between;
+    margin: 14.4rem 6.8rem;
+    
+}
+.section-4>.block-2{
+    display: flex;
+    justify-content: space-between;
+}
+.section-4>.block>.block1{
+    position: relative;
+}
+.section-4>.block>.block1>.img2{
+    position: absolute;
+    right: 5rem;
+    top: 6rem;
+}
+.section-4>.block>.block2{
+    position: relative;
+}
+.section-4>.block>.block2>.img2{
+    position: absolute;
+    right: 8rem;
+    top: 9rem;
+}
+
+.section-4>.block-2{
+    margin: 0px 2.6rem;
+}
+
+
+.section-4>.block-2>.block1{
+    position: relative;
+}
+.section-4>.block-2>.block1>.img2{
+    position: absolute;
+    right: 15rem;
+    top: 6rem;
+}
+.section-4>.block-2>.block2{
+    position: relative;
+}
+.section-4>.block-2>.block2>.img2{
+    position: absolute;
+    right: 12rem;
+    top: 9rem;
+}
+.section-5>.btn2{
+    font-family: var(--policepoppins);
+    font-style: 4rem;
+    color: #FFFFFF;
+    background-color: var(--btn-color);
+    margin-left: 90rem;
+    padding: 1.8rem 11rem 1.2rem 1.7rem;
+
+}
+
+.section-5{
+   background-color: #DFCECE;
+   justify-content: center;
+   padding-top: 38.1rem;
+   margin-top: 15rem;
+}
+.section-5>.cadre1{
+    border: 0.1rem 0.1rem 0.1rem;
+    color:  white ;
+}
